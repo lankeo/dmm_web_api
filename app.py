@@ -4,6 +4,7 @@ import re
 from config import *
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 
 client = MongoClient(**MONGOSERVER)
 db = client[DBNAME]

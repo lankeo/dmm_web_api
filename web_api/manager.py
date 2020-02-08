@@ -1,4 +1,5 @@
 from config import WEBSERVER
-from web_api import app
+from api import app
 
-app.run(**WEBSERVER)
+if __name__ == "__main__":
+    app.run(**WEBSERVER)

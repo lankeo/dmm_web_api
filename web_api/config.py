@@ -1,17 +1,17 @@
 # web server config sample
 
 WEBSERVER = {
-    "host": "192.168.0.101",
+    "host": "0.0.0.0",
     "port": 5000,
-    "debug": True
+    "debug": False
 }
 
 MONGOSERVER = {
-    "host": "192.168.0.101",
+    "host": "192.168.44.20",
     "port": 27017
 }
 
-DBNAME = "dnn"
+DBNAME = "dmm"
 
 # collections
 CO_PRODUCT = "product_v2"
